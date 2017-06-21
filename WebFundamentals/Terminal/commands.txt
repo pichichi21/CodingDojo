@@ -1,0 +1,44 @@
+
+➜  Documents cd CodingDojo 
+➜  CodingDojo mkdir Terminal
+➜  CodingDojo ls
+CSSChapter        Terminal          algorithms01.html
+HtmlChapter       algorithms.js
+➜  CodingDojo touch afile.html
+➜  CodingDojo ls
+CSSChapter        Terminal          algorithms.js
+HtmlChapter       afile.html        algorithms01.html
+➜  CodingDojo cp afile.html afilecopy.html
+➜  CodingDojo ls
+CSSChapter        Terminal          afilecopy.html    algorithms01.html
+HtmlChapter       afile.html        algorithms.js
+➜  CodingDojo            
+➜  CodingDojo ls
+CSSChapter        Terminal          afilecopy.html    algorithms01.html
+HtmlChapter       afile.html        algorithms.js
+➜  CodingDojo rm -i afilecopy.html
+remove afilecopy.html? Y
+➜  CodingDojo ls
+CSSChapter        Terminal          algorithms.js
+HtmlChapter       afile.html        algorithms01.html
+➜  CodingDojo mv afile.html ../CodingDojo
+mv: afile.html and ../CodingDojo/afile.html are identical
+➜  CodingDojo ls
+CSSChapter        Terminal          algorithms.js
+HtmlChapter       afile.html        algorithms01.html
+➜  CodingDojo cd ..
+➜  Documents cd CodingDojo
+➜  CodingDojo ls
+CSSChapter        Terminal          algorithms.js
+HtmlChapter       afile.html        algorithms01.html
+➜  CodingDojo mkdir test
+➜  CodingDojo ls
+CSSChapter        Terminal          algorithms.js     test
+HtmlChapter       afile.html        algorithms01.html
+➜  CodingDojo rm -rf -i test
+examine files in directory test? y
+remove test? y
+➜  CodingDojo ls
+CSSChapter        Terminal          algorithms.js
+HtmlChapter       afile.html        algorithms01.html
+➜  CodingDojo 
