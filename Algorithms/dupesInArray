@@ -1,0 +1,21 @@
+var anArray = [a, b, c, d, e, f, e];
+
+function dupes(arr) {
+
+    var dupedArray = [];
+    var b = 0;
+    var temp = arr[b];
+
+    for (var i = temp + 1; i < arr.length; i++) {
+
+        if (temp === arr[i]) {
+
+            for (var x = 0; x < myArray.length; x++) {
+
+                if (temp === arr[x])    myArray.push(temp);
+            
+            }
+        }
+    }
+
+}
