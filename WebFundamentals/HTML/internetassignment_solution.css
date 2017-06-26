@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+p {
+    margin: 10px 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: cyan;
+}
+
+button {
+    padding: 9px 15px 9px 15px;
+    color: white;
+    font-size: .9em;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 5px;
+    display: block;
+    margin-top: 5px;
+    width: 100%;
+}
+
+section {
+    width: 75%;
+    margin: auto;
+}
+
+    header {
+
+    }
+
+        section > header > img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: -25px;
+            display: inline-block;
+        }
+
+        section > header > h1 {
+            font-size: 3em;
+            font-weight: lighter;
+            display: inline-block;
+        }
+
+        section > header > h1 > span {
+            color: #306D9F;
+        }
+
+        section > header > h2 {
+            padding: 20px;
+            color: white;
+            font-weight: normal;
+            font-size: 2em;
+            background-color: #306D9F;
+            margin-bottom: 10px;
+        }
+
+    aside {
+        width: 20%;
+        padding: 1%;
+        display: inline-block;
+        vertical-align: top;
+        background-image: linear-gradient(to bottom, #fbfbfb, white);
+    }
+
+        #advertisement-top {
+            padding-bottom: 10px;
+            border-bottom: 1px solid silver;
+            margin-bottom: 10px;
+        }
+
+            #advertisement-top h5 {
+                margin-top: 15px;
+                margin-bottom: 5px;
+            }
+
+                #advertisement-top h5 span {
+                    color: red;
+                }
+
+                #advertisement-top {
+                    font-weight: 600;
+                }
+
+                #advertisement-top p span {
+                    color: #306D9F;
+                }
+
+            #video-button {
+                background-color: #306D9F;
+            }
+
+            #resources-button {
+                background-color: orange;
+            }
+
+        #advertisement-graphic {
+            background-image: url("./images/ad_background.png");
+            text-align: center;
+            padding: 20px 5px 20px 5px;
+        }
+
+            #advertisement-graphic h3 {
+                color: white;
+            }
+
+            #advertisement-graphic img {
+                width: 45%;
+                height: auto;
+            }
+
+            #advertisement-graphic button {
+                width: 80%;
+                margin-left: 10%;
+                background-color: cyan;
+            }
+
+    main {
+        width: 74%;
+        padding-left: 2%;
+        padding-right: 1%;
+        display: inline-block;
+        background-image: linear-gradient(to bottom, #fbfbfb, white);
+    }
+
+        main > header {
+            position: relative;
+            border-bottom: 1px solid gray;
+            padding-bottom: 50px;
+            margin-bottom: 20px;
+            /*background-color: #fbfbfb;*/
+        }
+
+        main > header > img {
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+        }
+
+        main > header > a {
+            color: navy;
+        }
+
+        #contact-info {
+            position: absolute;
+            top: 0;
+            right: 0;
+            /*display: inline-block;*/
+        }
+
+            #contact-info img {
+                display: inline-block;
+                height: 50px;
+                width: 50px;
+            }
+
+            #contact-info div {
+                display: inline-block;
+            }
+
+                #contact-info div p {
+                    font-size: .8em;
+                    margin: 0;
+                    color: silver;
+                }
+
+                #contact-info h3 {
+                    margin-left: 15px;
+                    color: cyan;
+                }
+
+        main > article {
+
+        }
+
+            main h3 {
+                color: #306D9F;
+            }
+
+            main > article > img {
+                width: 35%;
+                height: auto;
+                margin-left: 32.5%;
+            }
+
+        main > footer {
+            border: 5px solid #306D9F;
+            border-bottom: none;
+            padding: 10px;
+        }
+
+        main > footer > img {
+            width: 15%;
+            height: auto;
+            display: inline-block;
+        }
+
+        main > footer > div {
+            width: 80%;
+            display: inline-block;
+            vertical-align: top;
+        }
